@@ -11,3 +11,5 @@ Kubernetes:
         gera um ip interno para cada pod da aplicação
         gera ip externo para acessar a aplicação (load balancer)
         expoe o cluster em uma porta local (nodePort)
+
+testando 
