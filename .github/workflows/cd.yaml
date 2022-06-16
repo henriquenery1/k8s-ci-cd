@@ -44,7 +44,7 @@ jobs:
             labels: ${{steps.docker_meta.output.labels}}
 
         - name: Install doctl
-          uses: digitalocean/action-coctl@v2
+          uses: digitalocean/action-doctl@v2
           with: 
             token: ${{secrets.DIGITALOCEAN_TOKEN}}
 
