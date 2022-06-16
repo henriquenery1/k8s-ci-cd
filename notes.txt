@@ -1,0 +1,13 @@
+Kubernetes:
+    osquestrador de containers 
+
+    load balancer:
+        concentra toda a entrada da sua aplicação e distribui de forma organizada para os nodes para que não sobrecarregue nenhum processo e mantenha a aplicação saudavel
+    
+    replicaSet:
+        garante o funcionamento dos pods, alta disponibilidade da aplicação
+    
+    service:
+        gera um ip interno para cada pod da aplicação
+        gera ip externo para acessar a aplicação (load balancer)
+        expoe o cluster em uma porta local (nodePort)
