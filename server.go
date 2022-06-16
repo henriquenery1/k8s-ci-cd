@@ -8,5 +8,5 @@ func main() {
 }
 
 func Home(w http.ResponseWriter, r *http.Request) {
-	w.Write([]byte("<h1>Fala Galera Full Cycle!!!</h1>"))
+	w.Write([]byte("<h1>Hello world! K8s</h1>"))
 }
