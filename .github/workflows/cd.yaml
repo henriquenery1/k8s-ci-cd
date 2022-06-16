@@ -39,7 +39,7 @@ jobs:
           with: 
             context: .
             file: ./Dockerfile
-            plataforms: linux/amd64, linux/arm64, linux386
+            plataforms: linux/amd64, linux/arm64, linux/386
             tags: ${{steps.docker_meta.output.tags}}
             labels: ${{steps.docker_meta.output.labels}}
 
